@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup for Facebook</title>
+    <link rel="icon" href="facebook-circle-logo-png.png" type="image/png" />
+    <link rel="stylesheet" href="styl.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="div1">
+        <img
+          src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg"
+          alt="logo"
+        />
+        <div class="board">
+          <form action="">
+            <input type="text" placeholder="First name" required /><br />
+            <input type="text" placeholder="Surname" required /><br />
+            <div class="dob">
+              <label for="dob">Date of Birth</label><br />
+              <input type="date" id="dob" required />
+            </div>
+            <div class="gender">
+              <label>Gender</label><br />
+              <input
+                type="radio"
+                id="male"
+                name="gender"
+                value="male"
+                required
+              />
+              <label for="male">Male</label>
+              <input type="radio" id="female" name="gender" value="female" />
+              <label for="female">Female</label>
+              <input type="radio" id="other" name="gender" value="other" />
+              <label for="other">Other</label>
+            </div>
+            <div class="number">
+              <input type="tel" placeholder="Phone number" required />
+            </div>
+            <div class="email">
+              <input type="email" placeholder="Email address" required />
+            </div>
+            <div class="password">
+              <input type="password" placeholder="New password" required />
+            </div>
+            <button type="submit" class="si">Sign Up</button>
+          </form>
+          <div class="account-link">
+            <p>Already have an account? <a href="#">Log in</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

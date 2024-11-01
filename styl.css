@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Klavika';
+    src: url('fonts/Klavika-Regular.woff2') format('woff2'),
+         url('fonts/Klavika-Regular.woff') format('woff'),
+         url('fonts/Klavika-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Klavika';
+    src: url('fonts/Klavika-Bold.woff2') format('woff2'),
+         url('fonts/Klavika-Bold.woff') format('woff'),
+         url('fonts/Klavika-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Example usage */
+body {
+    font-family: 'Klavika', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.div1 {
+    text-align: center;
+}
+
+img {
+    margin-top: 50px;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.board {
+    width: 396px;
+    box-shadow: 2px 2px 10px #DDDFE2;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    margin: 10px auto;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="tel"],
+input[type="email"],
+input[type="password"] {
+    width: 300px;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.dob, .gender {
+    text-align: left;
+    width: 100%;
+    opacity:60%;
+}
+
+button.si {
+    margin-top: 10px;
+    padding: 10px;
+    width: 200px;
+    background-color: rgb(66, 183, 42);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button.si:hover {
+    background-color: rgb(50, 150, 35);
+}
+
+.account-link {
+    margin-top: 15px;
+}
+
+.account-link p {
+    font-size: 14px;
+}
+
+.account-link a {
+    color: blue;
+    text-decoration: none;
+}
+
+.account-link a:hover {
+    text-decoration: underline;
+}
